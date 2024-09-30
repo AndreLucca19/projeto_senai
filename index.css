@@ -1,0 +1,124 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+.site-header {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    background-color: #e30613;
+    padding: 1rem 0;
+}
+
+.logo-header {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-right: 50px;
+}
+
+.links a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Muda para coluna */
+    align-items: center;
+}
+
+.footer .icones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaçamento entre ícones e endereços */
+}
+
+.footer .divider {
+    width: 2px; /* Largura da linha */
+    background-color: #ffffff; /* Cor da linha */
+    margin: 0 20px; /* Espaçamento em volta da linha */
+}
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Largura total do footer */
+}
+
+.senai, .sesi {
+    width: 45%;
+    text-align: left;
+}
+
+.senai h3, .sesi h3 {
+    margin: 0;
+}
+
+.senai p, .sesi p {
+    margin: 0;
+}
+
+.footer .icones img {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content {
+    margin: 20px 0; /* Espaçamento vertical em relação à header e footer */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.image-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Cantos arredondados na imagem */
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
